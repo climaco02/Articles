@@ -33,16 +33,22 @@ em Ambientes Educacionais Ub\'iquos.
 \newblock {\em Anais do XXVI Simp\'osio Brasileiro de Inform\'atica na 
 Educa\c{c}\~ao }.
 
-\bibitem[Sales {\em et. al.}]{sales:16}
+\bibitem[Sales {\em et. al.} 2016]{sales:16}
 Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016)
 \newblock Jogos S\'erios em Intera\c{c}\~ao Humano-Computador: Uma revis\~ao 
 Sistem\'atica de Literatura.
 \newblock {\em RENOTE. Revista Novas Tecnologias na Educa\c{c}\~ao}, v.14, n.1.
 
-\bibitem[Sommariva {\em et. al.}]{soma:11}
+\bibitem[Sommariva {\em et. al.} 2011]{soma:11}
 Sommariva, L., Benitti, F., Dalcin, F. (2011)
 \newblock UsabilityGame: jogo simulador para apoio ao ensino de usabilidade.
 \newblock {\em 10th Brazilian Symposium on Human Factors in Computing Systems 
-and the 5th Latin American Conference on Human-Computer Interaction.}, p. 61--65.
+and the 5th Latin American Conference on Human-Computer Interaction}, p. 61--65.
+
+\bibitem[Vargas {\em et. al.} 2014]{vargas:14}
+Vargas, J., Garc\'ia-Mundo, L., Genero, M., Piattini, M. (2014)
+\newblock  A systematic mapping study on serious game quality.
+\newblock {\em 18th International Conference on Evaluation and Assessment in 
+Software Engineering}.
 
 \end{thebibliography}
