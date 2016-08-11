@@ -1,22 +1,5 @@
 \begin{thebibliography}{}
 
-%\bibitem[Boulic and Renault 1991]{boulic:91}
-%Boulic, R. and Renault, O. (1991).
-%\newblock 3d hierarchies for animation.
-%\newblock In Magnenat-Thalmann, N. and Thalmann, D., editors, {\em New Trends
-%  in Animation and Visualization}. John Wiley {\&} Sons ltd.
-%
-%\bibitem[Knuth 1984]{knuth:84}
-%Knuth, D.~E. (1984).
-%\newblock {\em The {\TeX} Book}.
-%\newblock Addison-Wesley, 15th edition.
-%
-%\bibitem[Smith and Jones 1999]{smith:99}
-%Smith, A. and Jones, B. (1999).
-%\newblock On the complexity of computing.
-%\newblock In Smith-Jones, A.~B., editor, {\em Advances in Computer Science},
-%pages 555--566. Publishing Press.
-
 \bibitem[Biolchini {\em et. al.}]{biol:05}
 Biolchini, J. C., Mian, P. G., Natali, A. C. C., Travassos, G. H. (2005).
 \newblock Systematic review in software engineering.
@@ -24,10 +7,35 @@ Biolchini, J. C., Mian, P. G., Natali, A. C. C., Travassos, G. H. (2005).
 System Engineering and Computer Science Departament, Federal University of 
 Rio de Janeiro, BR.
 
+\bibitem[Conte {\em et. al.}]{conte:14}
+Conte, T., Ferreira, B. M., Lopes, A., Marques, A. B., Rivero, L.  (2014).
+\newblock UsabiliCity: Um Jogo de Apoio ao Ensino de Propriedades de 
+Usabilidade de Software Atrav\'es de Analogias.
+\newblock {\em Simp\'osio Brasileiro de Inform\'atica na Educa\c{c}\~ao}, 
+p. 1273--1282.
+
+\bibitem[Lopes {\em et. al.}]{lopes:13}
+Lopes, A., Viana, D., Rabelo, J., Vieira, A., Conte, T. (2013)
+\newblock  InspSoft 2.0: Um Jogo para o Ensino de Inspe\c{c}\~ao de Software. 
+\newblock {\em XII Simp\'osio Brasileiro de Qualidade de Software}.
+
+\bibitem[Oeiras {\em et. al.}]{oeiras:08}
+Oeiras, J., Bentolila, D., Figueiredo, M. (2008)
+\newblock  Heva: uma ferramenta de suporte \`a avalia\c{c}\~ao heur\'istica para 
+sistemas web. 
+\newblock {\em VIII Brazilian Symposium on Human Factors in Computing 
+Systems},  p. 136--145.
+
 \bibitem[Sales {\em et. al.}]{sales:16}
-Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016).
+Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016)
 \newblock Jogos S\'erios em Intera\c{c}\~ao Humano-Computador: Uma revis\~ao 
 Sistem\'atica de Literatura.
 \newblock {\em RENOTE. Revista Novas Tecnologias na Educa\c{c}\~ao}, v.14, n.1.
+
+\bibitem[Sommariva {\em et. al.}]{soma:11}
+Sommariva, L., Benitti, F., Dalcin, F. (2011)
+\newblock UsabilityGame: jogo simulador para apoio ao ensino de usabilidade.
+\newblock {\em 10th Brazilian Symposium on Human Factors in Computing Systems 
+and the 5th Latin American Conference on Human-Computer Interaction.}, p. 61--65.
 
 \end{thebibliography}
