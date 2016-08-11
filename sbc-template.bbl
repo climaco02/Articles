@@ -1,30 +1,37 @@
 \begin{thebibliography}{}
 
-\bibitem[Biolchini {\em et. al.}]{biol:05}
+\bibitem[Biolchini {\em et. al.} 2005]{biol:05}
 Biolchini, J. C., Mian, P. G., Natali, A. C. C., Travassos, G. H. (2005).
 \newblock Systematic review in software engineering.
 \newblock {\em Technical Report ES 679/05, Federal University of Rio de Janeiro}, 
 System Engineering and Computer Science Departament, Federal University of 
 Rio de Janeiro, BR.
 
-\bibitem[Conte {\em et. al.}]{conte:14}
+\bibitem[Conte {\em et. al.} 2014]{conte:14}
 Conte, T., Ferreira, B. M., Lopes, A., Marques, A. B., Rivero, L.  (2014).
 \newblock UsabiliCity: Um Jogo de Apoio ao Ensino de Propriedades de 
 Usabilidade de Software Atrav\'es de Analogias.
 \newblock {\em Simp\'osio Brasileiro de Inform\'atica na Educa\c{c}\~ao}, 
 p. 1273--1282.
 
-\bibitem[Lopes {\em et. al.}]{lopes:13}
+\bibitem[Lopes {\em et. al.} 2013]{lopes:13}
 Lopes, A., Viana, D., Rabelo, J., Vieira, A., Conte, T. (2013)
 \newblock  InspSoft 2.0: Um Jogo para o Ensino de Inspe\c{c}\~ao de Software. 
 \newblock {\em XII Simp\'osio Brasileiro de Qualidade de Software}.
 
-\bibitem[Oeiras {\em et. al.}]{oeiras:08}
+\bibitem[Oeiras {\em et. al.} 2008]{oeiras:08}
 Oeiras, J., Bentolila, D., Figueiredo, M. (2008)
 \newblock  Heva: uma ferramenta de suporte \`a avalia\c{c}\~ao heur\'istica para 
 sistemas web. 
 \newblock {\em VIII Brazilian Symposium on Human Factors in Computing 
 Systems},  p. 136--145.
+
+\bibitem[Ribeiro e Cattelan 2015]{ribe:15}
+Ribeiro, T. B., Cattelan, R. G. (2015)
+\newblock  Tamanho \'otimo de Amostra para Analise do Desempenho de Estudantes 
+em Ambientes Educacionais Ub\'iquos. 
+\newblock {\em Anais do XXVI Simp\'osio Brasileiro de Inform\'atica na 
+Educa\c{c}\~ao }.
 
 \bibitem[Sales {\em et. al.}]{sales:16}
 Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016)
