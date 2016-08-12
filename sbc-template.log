@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.9)  11 AUG 2016 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.9)  12 AUG 2016 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,10 +190,10 @@ ao al[]em da inten[][]ao de di-ver-ti-mento
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sbc-template.bbl
 [2]) [3] (./sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 1772 strings out of 493014
- 23396 string characters out of 6139326
- 94979 words of memory out of 5000000
- 5321 multiletter control sequences out of 15000+600000
+ 1775 strings out of 493014
+ 23423 string characters out of 6139326
+ 95021 words of memory out of 5000000
+ 5324 multiletter control sequences out of 15000+600000
  18188 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,8n,28p,197b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -203,7 +203,7 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
 </usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (3 pages, 77727 bytes).
+Output written on sbc-template.pdf (3 pages, 79679 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream

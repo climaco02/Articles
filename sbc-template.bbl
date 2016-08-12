@@ -1,14 +1,19 @@
 \begin{thebibliography}{}
 
+\bibitem[Barbosa e Silva 2010]{barbo:10}
+Barbosa, S., Silva, B. (2010).
+\newblock Intera\c{c}\~ao Humano-Computador.
+\newblock {\em  Elsevier}. 
+
 \bibitem[Biolchini {\em et. al.} 2005]{biol:05}
-Biolchini, J. C., Mian, P. G., Natali, A. C. C., Travassos, G. H. (2005).
+Biolchini, J. C., Mian, P. G., Natali, A. C. C., Travassos, G. H. (2005)
 \newblock Systematic review in software engineering.
 \newblock {\em Technical Report ES 679/05, Federal University of Rio de Janeiro}, 
 System Engineering and Computer Science Departament, Federal University of 
 Rio de Janeiro, BR.
 
 \bibitem[Conte {\em et. al.} 2014]{conte:14}
-Conte, T., Ferreira, B. M., Lopes, A., Marques, A. B., Rivero, L.  (2014).
+Conte, T., Ferreira, B. M., Lopes, A., Marques, A. B., Rivero, L.  (2014)
 \newblock UsabiliCity: Um Jogo de Apoio ao Ensino de Propriedades de 
 Usabilidade de Software Atrav\'es de Analogias.
 \newblock {\em Simp\'osio Brasileiro de Inform\'atica na Educa\c{c}\~ao}, 
@@ -32,6 +37,13 @@ Ribeiro, T. B., Cattelan, R. G. (2015)
 em Ambientes Educacionais Ub\'iquos. 
 \newblock {\em Anais do XXVI Simp\'osio Brasileiro de Inform\'atica na 
 Educa\c{c}\~ao }.
+
+\bibitem[Rusu e Rusu 2007]{rusu:07}
+Rusu, C., Rusu, V. (2007)
+\newblock   Teaching HCI: a challenging intercultural, interdisciplinary,
+cross-field experience.
+\newblock {\em  Proceedings of the 1st International conference on intercultural
+collaboration, Tokyo}, p. 344--354.
 
 \bibitem[Sales {\em et. al.} 2016]{sales:16}
 Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016)
