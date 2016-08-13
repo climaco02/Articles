@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.9)  12 AUG 2016 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.9)  12 AUG 2016 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,8 +187,8 @@ ao al[]em da inten[][]ao de di-ver-ti-mento
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sbc-template.bbl
-[2]) [3] (./sbc-template.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./sbc-template.bbl) [
+3] (./sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
  1775 strings out of 493014
  23423 string characters out of 6139326
@@ -197,13 +197,13 @@ Here is how much of TeX's memory you used:
  18188 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,8n,28p,197b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.e
-nc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
-</usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (3 pages, 79679 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-d
+ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
+share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (3 pages, 80911 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
