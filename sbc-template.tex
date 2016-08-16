@@ -5,6 +5,15 @@
 \usepackage[brazil]{babel}   
 \usepackage[latin1]{inputenc}  
 
+\usepackage{xcolor,colortbl}
+
+\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+\definecolor{Gray}{gray}{0.85}
+%\definecolor{DarkGray}{gray}{0.75}
+
+\newcolumntype{a}{>{\columncolor{Gray}}c}
+\newcolumntype{b}{>{\columncolor{white}}c}
+
 \sloppy
 
 \title{Jogos de Apoio ao Ensino da disciplina de Interação Humano-Computador}
@@ -12,7 +21,7 @@
 \author{André Barros de Sales\inst{1}, Gabriel de Souza Clímaco\inst{1}}
 
 \address{
-Universidade de Brasília - Faculdade do Gama
+	Faculdade do Gama - Universidade de Brasília
   \email{andrebds@unb.br, gabrielsclimaco@gmail.com}
 }
 
@@ -67,7 +76,7 @@ disciplina de Interação Humano-Computador (IHC). IHC é uma disciplina a qual
 possui um foco de propor o desenvolvimento de softwares no que diz respeito a
 sua interação para o uso humano e os fenômenos que os cercam \cite{soma:11}.
 Em outras palavras, IHC estuda conceitos que podem evitar problemas que 
-prejudiquem a experiência do usuário \cite{barbo:10}. Torna-se evidente então
+prejudicam a experiência do usuário \cite{barbo:10}. Torna-se evidente então
 a importância de IHC em todos os níveis de desenvolvimento de um Software
 \cite{rusu:07}.
 
@@ -85,7 +94,7 @@ considerações finais.
 \section{Metodologia Utilizada}
 
 A metodologia utilizada durante todo o projeto de iniciação científica foi
-dividida em três partes. A primeira parte tratou da busca pelos artigos já 
+dividida em três partes. A primeira parte trata da busca pelos artigos já 
 existentes dentro da área de IHC; já a segunda parte diz respeito a comparação 
 entre os artigos encontrados; por fim, replicou-se o artigo que mais se 
 adequava à realidade da universidade.
@@ -96,7 +105,7 @@ robusta e consistente, a partir de um planejamento e execução criteriosos
 \cite{biol:05}. Objetivou-se, na revisão em questão, encontrar o maior número 
 de artigos possíveis e que sejam passíveis de aplicação na disciplina de IHC. 
 A revisão sistemática foi subdividida em três etapas: planejamento, execução 
-da pesquisa e análise dos resultados obtidos \cite{sales:16}.
+da pesquisa e análise dos resultados obtidos.
 
 Na segunda parte da metodologia, tomou-se os resultados obtidos através da 
 revisão sistemática para que fosse realizada uma comparação com base nos 
@@ -109,16 +118,18 @@ alunos, na qual se replicou o jogo que mais se adequava ao contexto em questão.
 Após replicar a pesquisa, foram comparados os dados obtidos com os dados da 
 pesquisa original.
 
-Os resultados obtidos em cada etapa da metodologia estão detalhados na seção 
-seguinte.
-
 \section{Resultados e Discussões}
 
 A primeira parte da metodologia, que diz respeito a uma revisão sistemática de
-literatura, teve como resultado apenas dois artigos sobre jogos dentro da área 
+literatura. Durante o planejamento, foram definidas questões de pesquisas, fontes onde
+seriam buscados os artigos, idiomas a serem considerados, a string de busca, as
+restrições e o período que seria considerado.
+
+Os resultados obtidos foram apenas dois artigos sobre jogos dentro da área 
 de IHC. São eles: Usabilicity \cite{conte:14} e o Usabilitygame \cite{soma:11}.
 Foram obtidos também outras duas ferramentas citadas no artigo do Usabilicity,
-o Inspsoft \cite{lopes:13} e o Heva \cite{oeiras:08}.
+o Inspsoft \cite{lopes:13} e o Heva \cite{oeiras:08}. Mais detalhes da revisão
+podem ser encontrados em \cite{sales:16}.
 
 Levando em conta os aspectos já citados para comparar as 4 opções apresentadas,
 observou-se que o jogo Usabilicity era a melhor opção para aplicar na 
@@ -131,34 +142,53 @@ de avaliação de usabilidade e não um jogo propriamente dito. Tendo isso em
 vista, fez-se a escolha do jogo Usabilicity, pois este é um jogo que demanda 
 menos de uma hora de utilização \cite{conte:14} e que está disponível online.
 
+Mais detalhes da comparação podem ser encontrados na Tabela 1.
+
+\begin{table}
+\begin{tabular}{ l  a  b  a  b}
+\hline
+\rowcolor{Gray}
+\mc{1}{Quesito}  & \mc{1}{Usabilicity} & \mc{1}{Usabilitygame} & \mc{1}{Inspsoft} & \mc{1}{Heva} \\
+\hline
+Tempo de Utilização & 15 minutos & 3 horas & 20 minutos & Indeterminado \\
+Características de Jogo & Apresenta & Apresenta & Apresenta & Não Apresenta \\
+Numero de Jogadores & Um & Um ou mais & Um & Um\\
+Disponibilidade & Disponivel & Disponível & Indisponível & Disponível\\
+Complexidade & Simples & Complexo & Mediano & Indeterminado\\ \hline
+ 
+\end{tabular}
+\end{table}
+
 Uma vez determinado a melhor opção passível de aplicação na disciplina de IHC 
 no contexto da Universidade de Brasília, foi realizada uma replicação de 
 pesquisa com base no artigo que apresenta o jogo. A replicação foi feita em uma
 turma composta de 24 alunos, dentre eles, homens e mulheres com idade entre 
 18 e 25 anos. A replicação apontou resultados positivos com relação a 
-utilização do jogo em questão, porém houve uma discrepância significativia com 
+utilização do jogo em questão, porém houve uma discrepância significativa com 
 relação aos dados da pesquisa original.
 
 \section{Considerações finais}
 
 Esta pesquisa objetivou encontrar uma ferramenta que pudesse servir de auxílio 
 para o ensino da disciplina de IHC. Durante o ano em que a pesquisa foi realizada,
-foram aplicadas três metodologias diferentes visando encontrar a melhor solução 
-possível para o problema proposto. A primeira metodologia tratou-se de uma busca
-por meio de uma revisão sistemática de literatura, a segunda de uma comparação
-entre os resultados encontrados, e o terceiro, um estudo comparativo por meio da
-aplicação do melhor jogo encontrado em uma turma de IHC e comparando-o com a
-pesquisa original.
+foi aplicada uma metodologia subdividida em três diferentes partes, visando 
+encontrar a melhor solução possível para o problema proposto. 
 
-Por meio da primeira parte da metodologia pode-se concluir que ainda há poucas
-soluções para o problema proposto. A segunda permitiu concluir que, além de haverem
-poucas soluções possíveis, apenas uma era viável e possível de apliacação na realidade
-da turma de IHC da Universidade de Brasília. A terceira parte, por fim, permitiu concluir
-que o jogo, apesar de não aprsentar resultados tão positivos quanto a pesquisa original,
-é uma boa alternativa para aqueles que desejarem aplicar um jogo para fixar parte dos
-conceitos estudados na disciplina.
+A primeira parte tratou-se de uma busca por meio de uma revisão sistemática de 
+literatura, a qual permitiu concluir que ainda há poucas soluções para o problema
+proposto.
 
-Propõe-se comos trabalhos futuros o desenvolvimento de  um jogo para auxiliar a
+A segunda consta de uma comparação entre os resultados encontrados, pela qual
+foi possível observar que, além de não existirem muitas soluções possíveis, apenas
+uma era viável e possível aplicar na realidade da turma de IHC na universidade de Brasília.
+
+A terceira, por fim, é sobre um estudo comparativo por meio da aplicação do melhor jogo 
+encontrado em uma turma de IHC e comparando-o com a pesquisa original. Tal aplicação
+permitiu concluir que o jogo, apesar de não apresentar resultados tão positivos quanto a 
+pesquisa original, é uma boa alternativa para aqueles que desejarem aplicar um jogo para 
+fixar parte dos conceitos estudados na disciplina.
+
+Propõe-se como trabalhos futuros o desenvolvimento de  um jogo para auxiliar a
 abordagem durante o ensino da disciplina, tendo em vista que as soluções existentes 
 ainda não são suficientes para solucionar o problema atual. 	
 
