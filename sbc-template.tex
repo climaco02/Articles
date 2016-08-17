@@ -2,7 +2,7 @@
 
 \usepackage{sbc-template}
 
-\usepackage[brazil]{babel}   
+\usepackage[brazil]{babel}
 \usepackage[latin1]{inputenc}  
 
 \usepackage{xcolor,colortbl}
@@ -18,11 +18,16 @@
 
 \title{Jogos de Apoio ao Ensino da disciplina de Interação Humano-Computador}
 
-\author{André Barros de Sales\inst{1}, Gabriel de Souza Clímaco\inst{1}}
+\author{André Barros de Sales\inst{1}, Gabriel de Souza Clímaco\inst{1}, 
+Márcia Barros de Sales\inst{2}}
 
 \address{
-	Faculdade do Gama - Universidade de Brasília
-  \email{andrebds@unb.br, gabrielsclimaco@gmail.com}
+	Faculdade UnB Gama\\ 
+	Universidade de Brasília - UnB -- Gama, DF -- Brasil
+\nextinstitute
+	Departamento de Ciências da Administração \\
+	Universidade Federal de Santa Catarina - UFSC -- Florianópolis, SC --Brasil
+  \email{andrebds@unb.br, gabrielsclimaco@gmail.com, marcia.barros@ufsc.br}
 }
 
 \begin{document} 
@@ -78,7 +83,8 @@ sua interação para o uso humano e os fenômenos que os cercam \cite{soma:11}.
 Em outras palavras, IHC estuda conceitos que podem evitar problemas que 
 prejudicam a experiência do usuário \cite{barbo:10}. Torna-se evidente então
 a importância de IHC em todos os níveis de desenvolvimento de um Software
-\cite{rusu:07}.
+\cite{rusu:07}. Devido a esse fato também, diversas pesquisas tem sido 
+desenvolvidas na área de ensino de IHC, dentre elas \cite{sales:12, sales:13}.
 
 Tendo essas assertivas em vista, foi realizado um projeto de iniciação 
 científica com o objetivo de identificar possíveis aplicações que pudessem 
@@ -142,13 +148,16 @@ de avaliação de usabilidade e não um jogo propriamente dito. Tendo isso em
 vista, fez-se a escolha do jogo Usabilicity, pois este é um jogo que demanda 
 menos de uma hora de utilização \cite{conte:14} e que está disponível online.
 
-Mais detalhes da comparação podem ser encontrados na Tabela 1.
+Mais detalhes da comparação podem ser encontrados na Tabela \ref{tabela}.
 
-\begin{table}
-\begin{tabular}{ l  a  b  a  b}
+\begin{table}[h]
+\caption{Tabela comparativa dos jogos}
+\label{tabela}
+\begin{tabular}{ l | r | l | r | l}
 \hline
-\rowcolor{Gray}
-\mc{1}{Quesito}  & \mc{1}{Usabilicity} & \mc{1}{Usabilitygame} & \mc{1}{Inspsoft} & \mc{1}{Heva} \\
+%\rowcolor{Gray}
+% \mc{1}{Quesito}  & \mc{1}{Usabilicity} & \mc{1}{Usabilitygame} & \mc{1}{Inspsoft} & \mc{1}{Heva} \\
+{Quesito}  & {Usabilicity} &{Usabilitygame} &{Inspsoft} & {Heva} \\
 \hline
 Tempo de Utilização & 15 minutos & 3 horas & 20 minutos & Indeterminado \\
 Características de Jogo & Apresenta & Apresenta & Apresenta & Não Apresenta \\
