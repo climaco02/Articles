@@ -1,16 +1,31 @@
 \begin{thebibliography}{}
 
+\bibitem[Aguiar 2010]{aguiar:10}
+Aguiar, M. P. (2010)
+\newblock Jogos eletr\^onicos educativos: instrumento de avalia\c{c}\~ao focado nas
+fases iniciais do processo de design.
+\newblock {\em  Disserta\c{c}\~ao(Mestrado em Design)}, UFPR. 
+
+\bibitem[An {\em et. al.} 2013]{an:13}
+An, D., da Silva, C., Ribeiro, D., da Rocha, P., Maltinti, C., Nunes, V., F\'avero, R. (2013)
+\newblock Digita-um Jogo Educativo de Apoio ao Processo de Alfabetiza\c{c}\~ao Infantil.
+\newblock {\em  Anais do Simp\'osio Brasileiro de Inform\'atica na Educa\c{c}\~ao.}. 
+
 \bibitem[Barbosa e Silva 2010]{barbo:10}
-Barbosa, S., Silva, B. (2010).
+Barbosa, S., Silva, B. (2010)
 \newblock Intera\c{c}\~ao Humano-Computador.
 \newblock {\em  Elsevier}. 
 
-\bibitem[Biolchini {\em et. al.} 2005]{biol:05}
-Biolchini, J. C., Mian, P. G., Natali, A. C. C., Travassos, G. H. (2005)
-\newblock Systematic review in software engineering.
-\newblock {\em Technical Report ES 679/05, Federal University of Rio de Janeiro}, 
-System Engineering and Computer Science Departament, Federal University of 
-Rio de Janeiro, BR.
+\bibitem[Basili \& Rombach 1998]{basi:98}
+Basili, V. R., Rombach, H. D. (1998)
+\newblock The TAME Project: Towards Improvement -- Oriented Software Environments.
+\newblock {\em IEEE Transactions on Software Engineering}, v. 14, n. 6. p. 758--773.
+
+\bibitem[Benitti \& Sommariva 2012]{beni:12}
+Benitti, F., Sommariva, L. (2012)
+\newblock Investigando o ensino de IHC no contexto da computa\c{c}\~ao: o que e 
+como \'e ensinado?
+\newblock {\em Workshop sobre Ensino de IHC.}.
 
 \bibitem[Conte {\em et. al.} 2014]{conte:14}
 Conte, T., Ferreira, B. M., Lopes, A., Marques, A. B., Rivero, L.  (2014)
@@ -19,10 +34,50 @@ Usabilidade de Software Atrav\'es de Analogias.
 \newblock {\em Simp\'osio Brasileiro de Inform\'atica na Educa\c{c}\~ao}, 
 p. 1273--1282.
 
+\bibitem[Fernandez {\em et. al.} 2011]{fe:11}
+Fernandez, A., Insfran, E., Abrahao, S. (2011)
+\newblock Usability evaluation methods for the Web: A systematic mapping study.
+\newblock {\em Information and Software Technology}, Volume 53, Issue 8.
+
+\bibitem[Gil 2002]{gil:02}
+Gil, A. C. (2002)
+\newblock Como elaborar projetos de pesquisa.
+\newblock {\em  São Paulo: Ed. Atlas}.
+
+\bibitem[Lang 1980]{lang:80}
+Lang, P. (1980)
+\newblock Behavioral treatment and bio-behavioral assessment: computer 
+applications. Technology in mental health care delivery systems.
+\newblock {\em  Sidowski, J. B., Johnson, J. H. and Williams, T. A., 
+editors, Technology in mental health care delivery systems.}.
+
+\bibitem[Lester 2008]{lester:08}
+Lester, C. Y. (2008)
+\newblock  Advancing the Multidisciplinary Nature of Human Computer 
+Interaction in a Newly Developed Undergraduate Course.
+\newblock {\em Second International Conferences on Advances in 
+Computer-Human Interactions}, Sainte Luce. p. 177--182.
+
 \bibitem[Lopes {\em et. al.} 2013]{lopes:13}
-Lopes, A., Viana, D., Rabelo, J., Vieira, A., Conte, T. (2013)
+Lopes, A. C., Marques, A. B., Conte, T. (2013)
+\newblock  Avalia\c{c}\~ao do Jogo InspSoft: Um Jogo para o Ensino de 
+Inspe\c{c}\~ao de Software. 
+\newblock {\em XIIV F\'orum de Educa\c{c}\~ao em Engenharia de Software.}.
+
+\bibitem[Lopes {\em et. al.}]{lopes:}
+Lopes, A., Viana, D., Rabelo, J., Vieira, A., Conte, T.
 \newblock  InspSoft 2.0: Um Jogo para o Ensino de Inspe\c{c}\~ao de Software. 
 \newblock {\em XII Simp\'osio Brasileiro de Qualidade de Software}.
+
+\bibitem[Mayhew 1999]{may:99}
+Mayhew, D. J. (1999)
+\newblock  The Usability Engineering Lifecycle.
+\newblock {\em San Diego: Academic Press}.
+
+\bibitem[Nielsen 1994]{nil:94}
+Nielsen, J. (1994) 
+\newblock  Usability engineering. 
+\newblock {\em Morgan Kaufmann Pub, UFPR}.
 
 \bibitem[Oeiras {\em et. al.} 2008]{oeiras:08}
 Oeiras, J., Bentolila, D., Figueiredo, M. (2008)
@@ -31,39 +86,44 @@ sistemas web.
 \newblock {\em VIII Brazilian Symposium on Human Factors in Computing 
 Systems},  p. 136--145.
 
-\bibitem[Ribeiro e Cattelan 2015]{ribe:15}
+\bibitem[Ribeiro \& Cattelan 2015]{ribe:15}
 Ribeiro, T. B., Cattelan, R. G. (2015)
 \newblock  Tamanho \'otimo de Amostra para Analise do Desempenho de Estudantes 
 em Ambientes Educacionais Ub\'iquos. 
 \newblock {\em Anais do XXVI Simp\'osio Brasileiro de Inform\'atica na 
 Educa\c{c}\~ao }.
 
-\bibitem[Rusu e Rusu 2007]{rusu:07}
+\bibitem[Rusu \& Rusu 2007]{rusu:07}
 Rusu, C., Rusu, V. (2007)
 \newblock   Teaching HCI: a challenging intercultural, interdisciplinary,
 cross-field experience.
 \newblock {\em  Proceedings of the 1st International conference on intercultural
 collaboration, Tokyo}, p. 344--354.
 
-\bibitem[Sales {\em et. al.} 2016]{sales:16}
-Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016)
-\newblock Jogos S\'erios em Intera\c{c}\~ao Humano-Computador: Uma revis\~ao 
-Sistem\'atica de Literatura.
-\newblock {\em RENOTE. Revista Novas Tecnologias na Educa\c{c}\~ao}, v.14, n.1.
+%\bibitem[Sales {\em et. al.} 2016]{sales:16}
+%Sales, A. B., Cl\'imaco, G. de S., Sales, M. B. (2016)
+%\newblock Jogos S\'erios em Intera\c{c}\~ao Humano-Computador: Uma revis\~ao 
+%Sistem\'atica de Literatura.
+%\newblock {\em RENOTE. Revista Novas Tecnologias na Educa\c{c}\~ao}, v.14, n.1.
+%
+%\bibitem[Sales {\em et. al.} 2012]{sales:12}
+%Sales, A. B., Coelho, L. D. N., Sales, M. B.(2012)
+%\newblock O Uso de Mapas Conceituais na Disciplina Intera\c{c}\~ao 
+%Humano-Computador.
+%\newblock {\em Extensio (Florian\'opolis)}, v. 9, p. 66--72.
+%
+%\bibitem[Sales {\em et. al.} 2013]{sales:13}
+%Sales, A. B., Esposte, A. M., Sales, M. B.(2013)
+%\newblock Avalia\c{c}\~ao da Aplica\c{c}\~ao da Aprendizagem Baseada em 
+%Problemas na Disciplina de Intera\c{c}\~ao Humano e Computador de curso 
+%de Engenharia de Software.
+%\newblock {\em RENOTE. Revista Novas Tecnologias na Educa\c{c}\~ao}, 
+%v. 11, p. q--10.
 
-\bibitem[Sales {\em et. al.} 2012]{sales:12}
-Sales, A. B., Coelho, L. D. N., Sales, M. B.(2012)
-\newblock O Uso de Mapas Conceituais na Disciplina Intera\c{c}\~ao 
-Humano-Computador.
-\newblock {\em Extensio (Florian\'opolis)}, v. 9, p. 66--72.
-
-\bibitem[Sales {\em et. al.} 2013]{sales:13}
-Sales, A. B., Esposte, A. M., Sales, M. B.(2013)
-\newblock Avalia\c{c}\~ao da Aplica\c{c}\~ao da Aprendizagem Baseada em 
-Problemas na Disciplina de Intera\c{c}\~ao Humano e Computador de curso 
-de Engenharia de Software.
-\newblock {\em RENOTE. Revista Novas Tecnologias na Educa\c{c}\~ao}, 
-v. 11, p. q--10.
+\bibitem[Savi {\em et. al.} 2011]{savi:11}
+Savi, R., Wangenheim, C., Borgatto, A. (2011) 
+\newblock Um Modelo de Avalia\c{c}\~ao de Jogos Educacionais na Engenharia de Software. 
+\newblock {\em Anais do XXV Simp\'osio Brasileiro de Engenharia de Software (SBES)}, p. 194--203.
 
 \bibitem[Sommariva {\em et. al.} 2011]{soma:11}
 Sommariva, L., Benitti, F., Dalcin, F. (2011)
@@ -76,5 +136,10 @@ Vargas, J., Garc\'ia-Mundo, L., Genero, M., Piattini, M. (2014)
 \newblock  A systematic mapping study on serious game quality.
 \newblock {\em 18th International Conference on Evaluation and Assessment in 
 Software Engineering}.
+
+\bibitem[Yin 2001]{yin:01}
+Yin, R. K. (2001) 
+\newblock  Estudo de caso: planejamento e m\'etodos. 
+\newblock {\em 2. Ed. Porto Alegre: Bookmark}, p. 32.
 
 \end{thebibliography}
