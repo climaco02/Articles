@@ -1,22 +1,25 @@
 \documentclass[12pt]{article}
 
 \usepackage{sbc-template}
+\usepackage{graphicx}
+
 
 \usepackage[brazil]{babel}
 \usepackage[latin1]{inputenc}  
-
-\usepackage{xcolor,colortbl}
-
-\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
-\definecolor{Gray}{gray}{0.85}
-%\definecolor{DarkGray}{gray}{0.75}
-
-\newcolumntype{a}{>{\columncolor{Gray}}c}
-\newcolumntype{b}{>{\columncolor{white}}c}
+%
+%\usepackage{xcolor,colortbl}
+%
+%\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+%\definecolor{Gray}{gray}{0.85}
+%%\definecolor{DarkGray}{gray}{0.75}
+%
+%\newcolumntype{a}{>{\columncolor{Gray}}c}
+%\newcolumntype{b}{>{\columncolor{white}}c}
 
 \sloppy
 
-\title{Jogos de Apoio ao Ensino da disciplina de Interação Humano-Computador}
+\title{Aplicação do jogo Usabilicity na disciplina Interação
+Humano-Computador: um Estudo Comparativo}
 
 \author{André Barros de Sales\inst{1}, Gabriel de Souza Clímaco\inst{1}, 
 Márcia Barros de Sales\inst{2}}
@@ -36,170 +39,288 @@ Márcia Barros de Sales\inst{2}}
 
 \begin{abstract}
 
-This article presents a summary of activities during a year of research
-of scientific study, in order to find a game that could serve as a tool
-aid for the discipline of Human-Computer Interaction (HCI). The methodology
-It was divided into three different parts: the first consists of a literature review to
-find potential existing games,  the second it is a comparison between the results
-found in the first part of the methodology, and the third is to apply the game in a classroom
-of HCI and analyze the results. The result was that there are still few solutions
-proposals for this type of problem, and yet existing solutions are not yet
-sufficient.
+This article presents a comparative study on the application of usability 
+concepts in Usabilicity game. The methodology used was divided into two
+phases: the first was a descriptive exploratory nature which analyzed the 
+interactions of 37 students of the Federal University of Amazonas (UFAM), and
+the second was a case study that involved the participation of 24 students at the
+University of Brasilia (UnB). For data collection was used the same questionnaire
+in UFAM with the intention to make a comparative study between the two
+universities and verify what was the satisfaction, sense of control and motivation
+of these students during interaction with this game. Among the results revealed
+a positive assessment of this group of students in both universities.
 
 \end{abstract}
      
 \begin{resumo} 
 
-Este artigo apresenta um resumo das atividades desenvolvidas durante um ano de pesquisa
-de iniciação científica, com o intuito de encontrar um jogo que pudesse servir como ferramenta
-de auxílio para a disciplina de Interação Humano-Computador (IHC). A metodologia empregada
-foi dividida em três partes diferentes: a primeira consta de uma revisão bibliográfica para 
-encontrar possíveis jogos já existentes, a segunda se trata de comparação entre os resultados
-encontrados na primeira parte da metodologia, e a terceira de aplicar o jogo em uma turma de
-IHC e analisar os resultados encontrados. O resultado obtido foi que ainda há poucas soluções
-propostas para esse tipo de problema, e que ainda assim, as soluções existentes ainda não são
-suficientes.
+Este artigo apresenta um estudo comparativo sobre a aplicação de
+conceitos de usabilidade empregados no jogo Usabilicity. A Metodologia 
+empregada foi divida em duas fases: a primeira foi de cunho Exploratório 
+descritivo que analisou as interações de 37 alunos da Universidade 
+Federal do Amazonas (UFAM), e a segunda foi um estudo de caso que envolveu 
+a participação de outros 24 alunos da Universidade de Bras??lia (UnB). Para 
+coleta de dados foi utilizado o mesmo questionário aplicado na UFAM, com a intenção
+de fazer um estudo comparativo entre as duas Universidades e verificar qual
+foi a satisfação, sentimento de controle e motivação desses alunos durante a
+interação com este jogo. Entre os resultados obtidos evidenciou-se a avaliação
+positiva deste grupo de alunos em ambas as Universidades.
 
 \end{resumo}
 
 \section{Introdução}
 
-Nos últimos anos, a tecnologia tem se disseminado de forma considerável na
-sociedade, tornando-se cada vez mais habitual e se convertendo em algo 
-onipresente e integrado no modo de vida de cada um \cite{ribe:15}. Tal 
-disperção confere aos profissionais da educação possam se utilizar da 
-tecnologia com intuito de educar quando julgarem que o \textit{modus operandis}
-tradicional não for suficiente.
+Interação Humano-Computador é uma disciplina focada no desenvolvimento de 
+produtos de Software no que diz respeito a sua interação para o uso humano 
+e o estudo dos fenômenos que os cercam [Sommariva et al. 2011]. Isto é, a 
+disciplina de IHC estuda os conceitos correlacionados com a usabilidade de 
+um Software. Tais conceitos podem ser usados para avaliar se uma determinada 
+aplicação apresenta problemas que possam prejudicar a experiência do usuário 
+[Barbosa e Silva 2010].
 
-Uma alternativa para os problemas supracitados é a utilização de 
-\textit{Serious Games}, que são jogos que tem uma intenção além da intenção de
-divertimento \cite{vargas:14}. Pode-se dizer então que a palavra ``sério'' faz 
-menção ao propósito com que o jogo é aplicado \cite{conte:14}.
+Levando em conta tais fatos, torna-se evidente e bem entendida em todos
+os níveis do desenvolvimento de um Software a importância do ensino princípios
+estudados em IHC [Rusu e Rusu 2007]. Apesar disso, os profissionais da área
+ainda consideram que o uso das referidas concepções como uma questão secundária
+[Lester 2008]. Tal circunstância está aliada ao fato de que a instrução de tais
+propriedades como um componente essencial no desenvolvimento de aplicações deixa 
+a desejar [Benitti e Sommariva 2012].
 
-Uma das disciplinas na qual o \textit{Serious Games} podem ser aplicados, é a 
-disciplina de Interação Humano-Computador (IHC). IHC é uma disciplina a qual 
-possui um foco de propor o desenvolvimento de softwares no que diz respeito a
-sua interação para o uso humano e os fenômenos que os cercam \cite{soma:11}.
-Em outras palavras, IHC estuda conceitos que podem evitar problemas que 
-prejudicam a experiência do usuário \cite{barbo:10}. Torna-se evidente então
-a importância de IHC em todos os níveis de desenvolvimento de um Software
-\cite{rusu:07}. Devido a esse fato também, diversas pesquisas tem sido 
-desenvolvidas na área de ensino de IHC, dentre elas \cite{sales:12, sales:13}.
+Nos último anos, as plataformas computacionais disseminaram-se de um modo
+expressivo na sociedade, tonando-se paulatinamente mais habituais e convertendo-se
+emcomponentes onipresentes que transformaram-se em partes integrantes do modo vida de
+cada um [Ribeiro e Cattelan 2015]. Essa disperção permite que o uso de tecnologia nos
+meios educacionais seja mais passível de execução, servindo de apoio para o ensino de
+disciplinas em que o instrutor julgue que o modus operandi tradicional não é suficiente.
 
-Tendo essas assertivas em vista, foi realizado um projeto de iniciação 
-científica com o objetivo de identificar possíveis aplicações que pudessem 
-servir de auxílio para o ensino da disciplina Interação Humano-Computador.
-Esse artigo tem por objetivo elucidar todas as etapas da pesquisa e os seus 
-resultados.
+Uma forma de tratar o gargálo mencionado acima é por meio da utilização de Jogos 
+Sérios, mais conhecidos como Serious Games. Os Serious Games são jogos nos quais
+a intenção vai além do lúdico [Vargas et al. 2014], em outras palavras, pode-se dizer que a
+palavra ``sério'' faz menção ao propósito com que o jogo é aplicado [Ferreira et. al. 2014].
 
-O artigo está estruturado da seguinte forma: a Seção 2 descreve a metodologia 
-utilizada durante a pesquisa, a Seção 3 apresenta os resultados e discussões 
-relacionados à metodologia aplicada, e a Seção 4, por fim, tece algumas 
-considerações finais.
+Com essas assertivas em mente, o objetivo geral deste trabalho foi realizar um
+estudo comparativo sobre a aplicação de conceitos de usabilidade empregados no jogo
+Usabilicity a partir da a pesquisa feita em [Ferreira et. al. 2014] realizada na UFAM e a
+sua reaplicação foi na Universidade de Brasília com a intenção de analisar as seguintes
+variáveis: satisfação, sentimento de controle e motivação dos alunos durante a interação
+com este jogo. Este artigo está organizado da seguinte forma: a Seção 2 descreve os
+trabalhos relacionados à essa pesquisa, a Seção 3 apresenta os materiais e método. A
+Seção 4 mostra os resultados e discussões, e na Seção 5 apresenta as considerações finais.
+Por último, são apresentadas as referências bibliográficas.
 
-\section{Metodologia Utilizada}
+\section{Trabalhos Relacionados}
 
-A metodologia utilizada durante todo o projeto de iniciação científica foi
-dividida em três partes. A primeira parte trata da busca pelos artigos já 
-existentes dentro da área de IHC; já a segunda parte diz respeito a comparação 
-entre os artigos encontrados; por fim, replicou-se o artigo que mais se 
-adequava à realidade da universidade.
+Entre as aplicações analisadas, foram encontrados quatro resultados passíveis de
+aplicação no quesito de usabilidade. São eles: Usabilitygame\footnote{http://usabilitygame.com/},
+Usabilicity\footnote{http://usabilicity.appspot.com/} , Inspsoft e Heva.
 
-Na primeira parte foi realizada uma revisão sistemática, uma metodologia de 
-estudo secundário estabelecer um levantamento formal do estado da arte de forma
-robusta e consistente, a partir de um planejamento e execução criteriosos 
-\cite{biol:05}. Objetivou-se, na revisão em questão, encontrar o maior número 
-de artigos possíveis e que sejam passíveis de aplicação na disciplina de IHC. 
-A revisão sistemática foi subdividida em três etapas: planejamento, execução 
-da pesquisa e análise dos resultados obtidos.
+O Usabilitygame tem por objetivo fixar os conteúdos retratado no tema de
+cliclo de vida da engenharia de usabilidade proposto por [Mayhew 1999] retratando
+também a avaliação heurística de usabilidade. Sua proposta é de fixar tais conceitos
+por meio da simulação de uma empresa em busca de um engenheiro de usabilidade
+[Sommariva et al. 2011]. O jogador assume o papel de engenheiro contratado, e tem por
+objetivo resolver os problemas da empresa obtendo um bom desempenho em cada fase do
+jogo. O jogo conta com três diferentes estágios, cada qual está relacionado com uma etapa
+do ciclo de vida acima mencionado, e com três diferentes ambientes de apoio ao usuário.
+Apesar de ser um jogo classificado como single player, ele conta com a participação de
+um professor como Engenheiro de Usabilidade Líder, porém de forma automadizada 
+durante a utilização do jogo. O jogo está diponível para utilização web e sua avaliação,
+apesar de não ter sido executada, foi planejada em duas etapas: (i) avaliação do jogo por
+um especialista (professores da área de IHC) através do instrumento de avaliação definido
+por [Aguiar 2010]; e (ii) avaliação empírica (qualitativa e quantitativa) realizada em uma
+turma de Interação Humano-Computador.
 
-Na segunda parte da metodologia, tomou-se os resultados obtidos através da 
-revisão sistemática para que fosse realizada uma comparação com base nos 
-seguintes aspectos: tempo de utilização do jogo, características de jogo, 
-número de jogadores, disponibilidade e complexidade. Tal comparação objetivou
-encontrar a melhor opção a ser aplicada dentro da realidade da disciplina.
+O Usabilicity por sua vez tem a meta de fixar, por meio de uma simulação, as
+propriedades de usabilidade descritas na técnica de Avaliação Heurística (AH) propostas
+por [Nielsen 1994]. O enredo do jogo trata de uma cidade com problemas estruturais, e
+o objetivo do jogador é utilizar os conceitos de usabilidade baseado em heurísticas para
+resolver tais probemas [Ferreira et. al. 2014]. A aplicação apresenta 5 fases, cada qual
+relatando duas falhas na estrutura da cidade, em que cada uma é solucionada com uma
+heurística exclusivamente; há também uma tela de apoio com descrições das heurísticas
+que solucionam os problemas da cidade. É uma aplicação single player e está diponível
+para uso na internet. O jogo obteve um resultado positivo por meio de uma avaliação
+planejada da mesma maneira que foi mencionada no jogo Usabilitygame com o auxilio 
+de uma turma de 37 alunos do quinto período do curso de Ciência da Computação
+da Universidade Federal do Amazonas (UFAM) que cursavam a disciplina de Interação
+Humano-Computador.
 
-Por fim, a terceira parte da metodologia utilizou-se uma turma de IHC de 24
-alunos, na qual se replicou o jogo que mais se adequava ao contexto em questão.
-Após replicar a pesquisa, foram comparados os dados obtidos com os dados da 
-pesquisa original.
+O jogo Inspsoft busca o ensino da inspeção de software no que diz respeito aos
+papeis de cada participante nesse processo e os tipos de defeitos que podem ser 
+encontrados em um documento de requisitos [Lopes et. al. 2013]. O jogo em questão, assim
+como os dois anteriormente mencionados, trata de uma simulação single player; no caso,
+a simulação em questão envolve uma vaga de emprego, especificamente no grupo de 
+Garantia de Qualidade, em empresa de desenvolvimento de software, e o objetivo do jogador
+é realizar uma avaliação com base em três níveis. O primeiro nível trata dos papeis de cada
+indivíduo no processo de desenvolvimento de software, o segundo nível diz respeito aos
+defeitos em um documento de requisitos, e o terceiro e último nível trabalha com as falhas
+que podem ser encontradas em uma especificação de caso de uso [Lopes et. al. 2012]. O
+jogo conta com uma avaliação de resultado positivo, cujo objetivo foi feito baseado no
+modelo GQM (Goal-Question-Metric) definido por [Basili e Rombach 1998] e foi 
+baseada no preenchimento do modelo de questionários proposto por [Savi et. al. 2011]. A
+avaliação contou com o auxílio de uma turma de 16 alunos do sexto período de Ciência
+da Computação da UFAM. O jogo estava disponível durante o período em que foi avaliado, 
+porém os links que antes direcionavam o usuário para o jogo não mais o fazem.
+
+A aplicação Heva não chega a ser classificada como um jogo. A ferramenta foi
+desenvolvida como uma extesão para o navegador Mozilla Firefox com o objetivo de
+auxiliar a AH, minimizando assim o esforço dos avaliadores ao gerar seus relatórios
+[Oeiras et. al. 2008]. A ferramenta foi avaliada diversos contextos diferentes, incluindo
+turmas de graduação, pós-graduação, com o objetivo de verificar a sua aceitabilidade nos
+quesitos de utilidade e usabilidade. A avaliação permitiu encontrar diversos problemas na
+aplicação já corrigidos na versão atual.
+
+\section{Material e Métodos}
+
+Está pesquisa é de caráter exploratório descrita visto que a fonte primária de 
+dados foi obtida de um artigo UsabiliCity: Um Jogo de Apoio ao Ensino de 
+Propriedades de Usabilidade de Software Através de Analogias [Ferreira et. al. 2014].
+Para [Gil 2002], a pesquisa descritiva tem como objetivo proporcionar uma visão geral,
+de tipo aproximativo, acerca de determinado fato; nesse tipo de pesquisa, o pesquisador 
+procura um maior entendimento sobre o tema em estudo.
+
+Quanto aos procedimentos se caracteriza como um estudo de caso, visto que 
+estudou uma realidade provenientes de uma turma de 24 alunos da disciplina de Interação
+Humano-Computador, do primeiro semestre de 2016, do curso de Engenharia de 
+Software da Universidade de Brasília. De acordo com [Yin 2001], ``o estudo de caso é uma
+investigação empírica de um fenômeno contemporâneo dentro de um contexto da vida
+real, sendo que os limites entre o fenômeno e o contexto não estão claramente 
+definidos''.
+
+Este estudo tem uma abordagem qualitativa, visto que teve como 
+base conhecimentos teóricos e empíricos que permitiram atribuir uma análise 
+científica, cujos conhecimentos teórico-científicos advêm do referencial 
+teórico e os dados coletados. Dentro do universo da turma, havia um total de 21 
+homens e apenas 3 mulheres, dentre os quais estavam em uma faixa etária de 18 a 25 
+anos, cursando entre o quinto e o décimo primeiro semestre do curso de Engenharia 
+de Software, dos quais apenas dois possuíam um conhecimento prévio do conteúdo 
+abordado na disciplina.
+
+Fez-se a escolha de replicar o jogo Usabilicity por diversas razões, dentre elas por
+ser um jogo cuja resultado da aplicação teve uma excelente avaliação entre os alunos,
+ser um jogo simples, possuir um tempo de jogo curto (o tempo jogo é em torno de uma
+parcela de uma aula de duas horas, que foi o caso em questão) em comparação aos demais
+jogos relacionados.
+
+O Usabilicity é um jogo web e portanto necessita de internet para seu funcionamento.
+Nesse experimento o jogo foi modificado para ser executado localmente nos 
+coputadores da UnB, contudo essa modificação foi previamente analisado para não perder
+nenhuma das características do jogo analisado na UFAM.
+
+Para a avaliação do jogo, utilizou-se o mesmo questionário da pesquisa 
+original, baseado na escala SAM (Self Assessment Manikin) proposto por [Lang 1980].
+A utilização da escala SAM permite mensurar três dimensões: (a) Satisfação (pra-
+zer/desprazer); (b) Sentimento de Controle (domínio da situação/ dominado pela
+situação); e (c) Motivação (calmo/excitado). O questionário foi divido entre as sete telas
+mostradas ao usuário durante a utilização do jogo.
+
+Antes de realizar as devidas poderações sobre a aplicação, os alunos tiveram 
+aulas prévias sobre os conceitos das heurísticas trabalhados no jogo. Houve também uma
+breve explicação sobre a aplicação em si e todos os alunos assinaram um Termo de
+Consentimento Livre e Esclarecido (TCLE). A avaliação foi realizada em duas etapas:
+(a) utilização do jogo; e (b) preenchimento dos questionários. Foi adicionado ao 
+questionário original um campo de ``Considerações Finais'' para que os alunos expressassem
+suas ponderações acerca do jogo ou até mesmo justificar a avaliação feita caso desejassem.
 
 \section{Resultados e Discussões}
 
-A primeira parte da metodologia, que diz respeito a uma revisão sistemática de
-literatura. Durante o planejamento, foram definidas questões de pesquisas, fontes onde
-seriam buscados os artigos, idiomas a serem considerados, a string de busca, as
-restrições e o período que seria considerado.
+Os questionários coletados apresentaram uma avaliação positiva com relação ao uso do
+jogo em questão. Tal resultado já era esperado, pois ao se realizar uma replicação, 
+esperasse obter os mesmos resultados da pesquisa original. No entanto, o experimento
+replicado apresentou um número consideravel de julgamentos negativos com relação ao
+trabalho inicial. A tabela \ref{tabela} apresenta um comparativo das conjecturas 
+obtidas à partir das duas avaliações: a original realizada na Universidade Federal 
+do Amazonas (UFAM), e a replicação realizada na Universidade de Brasília (UnB). 
+Devido a diferença entre o número de alunos que participaram da pesquisa nos dois 
+contextos, os dados estão dispostos com relação a porcentagem e não ao número absoluto, 
+para que assim os dados possam ser comparados entre si.
 
-Os resultados obtidos foram apenas dois artigos sobre jogos dentro da área 
-de IHC. São eles: Usabilicity \cite{conte:14} e o Usabilitygame \cite{soma:11}.
-Foram obtidos também outras duas ferramentas citadas no artigo do Usabilicity,
-o Inspsoft \cite{lopes:13} e o Heva \cite{oeiras:08}. Mais detalhes da revisão
-podem ser encontrados em \cite{sales:16}.
-
-Levando em conta os aspectos já citados para comparar as 4 opções apresentadas,
-observou-se que o jogo Usabilicity era a melhor opção para aplicar na 
-disciplina de IHC da Universidade de Brasília. Descartou-se a opção de utilizar
-o jogo Usabilitygame pelo fato do mesmo levar cerca de três horas para jogar, 
-inviabilizando sua aplicação em uma aula de duas horas. O Inspsoft foi 
-descartado pelo fato de não estar mais disponível para uso. Por fim, não foi 
-levada em consideração a utilização do Heva, pelo fato deste ser uma ferramenta
-de avaliação de usabilidade e não um jogo propriamente dito. Tendo isso em 
-vista, fez-se a escolha do jogo Usabilicity, pois este é um jogo que demanda 
-menos de uma hora de utilização \cite{conte:14} e que está disponível online.
-
-Mais detalhes da comparação podem ser encontrados na Tabela \ref{tabela}.
-
-\begin{table}[h]
-\caption{Tabela comparativa dos jogos}
+\begin{table}[!h]
+\centering
+\includegraphics[width=1\textwidth]{tabela.png}
+\caption{Comparativo dos resultados do experimento na UFAM e na UnB}
 \label{tabela}
-\begin{tabular}{ l | r | l | r | l}
-\hline
-%\rowcolor{Gray}
-% \mc{1}{Quesito}  & \mc{1}{Usabilicity} & \mc{1}{Usabilitygame} & \mc{1}{Inspsoft} & \mc{1}{Heva} \\
-{Quesito}  & {Usabilicity} &{Usabilitygame} &{Inspsoft} & {Heva} \\
-\hline
-Tempo de Utilização & 15 minutos & 3 horas & 20 minutos & Indeterminado \\
-Características de Jogo & Apresenta & Apresenta & Apresenta & Não Apresenta \\
-Numero de Jogadores & Um & Um ou mais & Um & Um\\
-Disponibilidade & Disponivel & Disponível & Indisponível & Disponível\\
-Complexidade & Simples & Complexo & Mediano & Indeterminado\\ \hline
- 
-\end{tabular}
 \end{table}
 
-Uma vez determinado a melhor opção passível de aplicação na disciplina de IHC 
-no contexto da Universidade de Brasília, foi realizada uma replicação de 
-pesquisa com base no artigo que apresenta o jogo. A replicação foi feita em uma
-turma composta de 24 alunos, dentre eles, homens e mulheres com idade entre 
-18 e 25 anos. A replicação apontou resultados positivos com relação a 
-utilização do jogo em questão, porém houve uma discrepância significativa com 
-relação aos dados da pesquisa original.
+Pode se observar no quesito de Satisfação na Tabela \ref{tabela}, que há uma grande
+diferença na quantidade de votos negativos, neutros e positivos obtidos nas maiorias das
+telas entre as instituições, com exceção das telas 6 e 7. Contudo observa-se que os votos
+neutros e positivos são sempre acima de 50\% em todas as telas e em ambas instituições.
 
-\section{Considerações finais}
+No quesito Sentimento de Controle, observa se que na telas telas 2, 4, 5 e 7 os
+votos positivos na UFAM foram bem superiores que na UnB, contudo observa se também
+que os votos neutros e positivos são sempre acima de 50\% em todas as telas e em ambas
+instituições.
 
-Esta pesquisa objetivou encontrar uma ferramenta que pudesse servir de auxílio 
-para o ensino da disciplina de IHC. Durante o ano em que a pesquisa foi realizada,
-foi aplicada uma metodologia subdividida em três diferentes partes, visando 
-encontrar a melhor solução possível para o problema proposto. 
+No quesito Motivação, observa se também que nas telas 1, 3 e 4 os votos positivos
+obtidos na UFAM foram bem superiores que na UnB. Da mesmas maneira que os demais
+quesitos, os votos neutros e positivos são sempre acima de 50\% em todas as telas e em
+ambas instituições.
 
-A primeira parte tratou-se de uma busca por meio de uma revisão sistemática de 
-literatura, a qual permitiu concluir que ainda há poucas soluções para o problema
-proposto.
+A média dos votos referentes aos três quesitos avaliados no experimento
+(satisfação, sentimento de controle e motivação) entres as intituições UFAM e 
+UnB pode ser vista na Figura \ref{imagem}.
 
-A segunda consta de uma comparação entre os resultados encontrados, pela qual
-foi possível observar que, além de não existirem muitas soluções possíveis, apenas
-uma era viável e possível aplicar na realidade da turma de IHC na universidade de Brasília.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{imagem.png}
+\caption{Gráfico comparativo da média dos votos das duas instituições de 
+ensino. (A) Satisfação (B) Sentimento de Controle (C) Motivação.}
+\label{imagem}
+\end{figure}
 
-A terceira, por fim, é sobre um estudo comparativo por meio da aplicação do melhor jogo 
-encontrado em uma turma de IHC e comparando-o com a pesquisa original. Tal aplicação
-permitiu concluir que o jogo, apesar de não apresentar resultados tão positivos quanto a 
-pesquisa original, é uma boa alternativa para aqueles que desejarem aplicar um jogo para 
-fixar parte dos conceitos estudados na disciplina.
+Pode-se observar que, no geral, em ambos os experimentos em todos as três entidades
+avaliadas, do total dos 24 alunos, cerca de 19 (80\%) de votos deles foram positivos
+ou neutros. Ou seja, é possível afirmar que os alunos se sentiram satisfeitos, sentiram
+que controlavam o jogo da maneira que desejassem e se sentiram motivados a continuar
+jogando. Porém, cabe a ressalva de que no experimento original há um peso 
+consideravelmente maior de votos positivos, ao passo de que na replicação, os votos 
+positivos e neutros quase que se equiparam.
 
-Propõe-se como trabalhos futuros o desenvolvimento de  um jogo para auxiliar a
-abordagem durante o ensino da disciplina, tendo em vista que as soluções existentes 
-ainda não são suficientes para solucionar o problema atual. 	
+A divergência com relação à diferença da porcentagem de votos dos dois experimento 
+pode ser explicada se levarmos em consideração a diferença de realidade de cada
+um. Os perfis de alunos de cada universidade divergem, assim como os perfis de cada
+curso (Engenharia de Software e Ciência da Computação). Além disso, o questionário
+utilizado para avaliar o jogo em questão baseia-se na opinião do usuário, e mesmo que
+o número de avaliações negativas tenha sido maior na replicação do que em relação a
+pesquisa original, no que se tratando da avaliação geral, em ambos os âmbitos os alunos
+deram um parecer positivo com relação ao jogo.
+
+Dentre as observações feitas pelos alunos, aquelas que se referiam à críticas negativas
+tratavam de pontos como: falta de animações, falta de divertimento ao completar
+os desafios, problemas com navegadores diferentes do Google Chrome, impossibilidade
+de sair de uma fase, falha na seleção de personagens, entre outros. Essas opiniões 
+adversas, apesar de apontar irregularidades no jogo que precisam ser consertadas, 
+as mesmas não conferem à aplicação um caráter de má qualidade. Além disso, alguns 
+desses problemas já tinham sido apontados na pesquisa original como defeitos a 
+serem consertados em trabalhos futuros.
+
+Vale ressaltar que também houveram observações positivas, dentre as quais cabe
+apontar: as definições de Heurísticas no começo da aplicação e o seu uso para fixar os
+conceitos de usabilidade e Interação Humano-Computador. Isto é, o jogo pode ser 
+considerado como uma boa ferramenta de aprendizagem, não obstante, ainda há lapsos a serem
+retificados.
+
+\section{Conclusões}
+
+Este artigo objetivou realizar uma replicação de pesquisa para avaliar a qualidade
+do software Usabilicity de acordo com três quesitos previamente definidos. 
+Utilizou-se uma turma de 24 alunos da disciplina de interação humano-computador 
+do curso de Engenharia de Software para utilizar a aplicação mencionada no decorrer 
+de uma aula de duas horas e, à partir do seu uso, efetuar a avaliação.
+
+Por meio da análise percentual dos dados coletados, observou-se que o 
+experimento desempenhado na UnB apresentou um descontentamento significamente maior
+com relação ao original. Tal disparidade se dá devido aos diferentes contextos nos quais
+o jogo foi aplicado no que diz respeito a curso e universidade. Além do fato de que os
+defeitos indicados pelos alunos que utilizaram o jogo, mesmo que apontem falhas que
+tem a necessidade de serem corrigidas, não conferirem uma má qualidade do software, os
+alunos realizaram também críticas positivas. Tal circunstância é corroborada ao se 
+observar a porcentagem de avaliações de caráter positivas ou neutras, que se sobressaíram de
+forma relevante com relação as avaliações negativas.
+
+Tais resultados permitem inferir que a aplicação Usabilicity é uma boa ferramentade 
+assistência à educação, pois auxilia de forma positiva o consolidamento dos conceitos
+das heurísticas de usabilidade.
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
